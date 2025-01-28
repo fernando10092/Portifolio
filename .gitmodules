@@ -1,0 +1,3 @@
+[submodule "vite-project"]
+	path = vite-project
+	url = https://github.com/fernando10092/Portifolio.git
