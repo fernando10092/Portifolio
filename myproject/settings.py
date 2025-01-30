@@ -122,5 +122,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
     "https://localhost:5173",
+    "https://myportifolio-navy.vercel.app/",
+    "https://myportifolio-navy.vercel.app/#contato",
 ]
 
