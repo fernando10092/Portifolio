@@ -130,7 +130,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
     "https://localhost:5173",
-    "https://myportifolio-navy.vercel.app/",
-    "https://myportifolio-navy.vercel.app/#contato",
+    "https://portifoliomain-inky.vercel.app/",
+    "https://portifoliomain-inky.vercel.app/#contato",
 ]
 
