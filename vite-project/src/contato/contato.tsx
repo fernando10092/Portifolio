@@ -28,7 +28,7 @@ export const Contato = () => {
         };
 
         try {
-            const response = await fetch("http://127.0.0.1:8000/envio/", {
+            const response = await fetch("https://portifolio-back-ac6172566c15.herokuapp.com/envio/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
