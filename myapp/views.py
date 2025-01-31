@@ -29,7 +29,7 @@ def Sender(request):
                 "Messages": [
                     {
                         "From": {
-                            "Email": "seu-email-verificado@dominio.com",  # Alterado para um e-mail válido
+                            "Email": "fernando100@windowslive.com",  # Alterado para um e-mail válido
                             "Name": f"{name} (via Portfólio)"
                         },
                         "To": [
