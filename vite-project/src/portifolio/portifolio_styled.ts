@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Background_styled = styled.div`
 background-color: #7B68EE;
 width: 100%;
-height: 100vh;
+min-height: 100vh;
 margin: 0px;
 padding: 0px;
 `
@@ -12,6 +12,9 @@ padding: 0px;
 export const BackgroundColuns = styled.div`
 display: grid;
 grid-template-columns: auto auto;
+@media (max-width: 700px) {
+    grid-template-columns: auto;
+  }
 `
 
 //

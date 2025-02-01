@@ -56,6 +56,7 @@ color: #FFFFFF;
 font-family: "Sour Gummy", sans-serif;
 z-index: 10;
 `
+
 //SUB TEXTO
 export const TextBelow = styled.p`
 color: #FFFFFF;
@@ -81,6 +82,9 @@ transition: 0.5s;
 font-size: 20px;
 font-weight: bold;
 }
+@media (max-width: 700px) {
+    top: 110%;
+  }
 `
 
 export const TitleName = styled.h1`
@@ -99,4 +103,8 @@ position: absolute;
 top: 50%;
 left: 10%;
 Z-index: 10;
+@media (max-width: 700px) {
+    top: 70%;
+    font-size: 26px;
+  }
 `

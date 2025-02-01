@@ -4,14 +4,17 @@ import styled from 'styled-components';
 export const Background_styled = styled.div`
 background-image: linear-gradient(	#4682B4, black);
 width: 100%;
-height: 100vh;
+min-height: 100vh;
 margin: 0px;
-padding: 0px;
+padding: 0px; 
 `
 //COLUNAS
 export const BackgroundColuns = styled.div`
 display: grid;
 grid-template-columns: auto auto;
+@media (max-width: 700px) {
+    grid-template-columns: auto;
+  }
 `
 
 //COLUNA 1
@@ -19,12 +22,16 @@ export const Coluna1 = styled.div`
 text-align: center;
 align-content: center;
 margin-top: 80px;
+
 `
 
 //COLUNA 2
 export const Coluna2 = styled.div`
 width: 70%;
 margin-top: 80px;
+@media (max-width: 700px) {
+    padding: 20px;
+  }
 `
 
 //TEXTO
@@ -78,6 +85,10 @@ background-color: black;
 export const DivCard = styled.div`
 width: 400px;
 margin: 10px auto;
+@media (max-width: 700px) {
+    width: 300px;
+    margin-top: 350px;
+  }
 `
 //IMGCARD
 export const ImgCard = styled.img`

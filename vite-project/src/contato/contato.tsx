@@ -80,7 +80,7 @@ export const Contato = () => {
                                 <input onChange={(event) => setTelefone(event.target.value)} value={telefone} name="telInp" type="text" className="form-control" id="exampleFormControlInput1" placeholder="(XX) XXXXX-XXXX" />
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="exampleFormControlTextarea1" className="form-label">Example textarea</label>
+                                <label htmlFor="exampleFormControlTextarea1" className="form-label">Mensagem</label>
                                 <textarea placeholder="Digite sua mensagem..." onChange={(event) => setMsg(event.target.value)} value={msg} name="msgInp" className="form-control" id="exampleFormControlTextarea1"></textarea>
                             </div>
                             <Botao type="submit">ENVIAR</Botao>
