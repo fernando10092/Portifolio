@@ -12,7 +12,7 @@ const PrePage = () => {
     }, 1000);
   }, []);
 
-  /// Variants para animação de letras individuais
+  // Variants para animação de letras individuais
   const letterVariants = {
     hidden: { opacity: 0, y: 10 },
     visible: (i: number) => ({
