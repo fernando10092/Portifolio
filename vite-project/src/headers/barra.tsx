@@ -11,13 +11,18 @@ export const Barra = () => {
                             </A>
                         </Li>
                         <Li>
-                            <A href='#portifolio'>
-                                Portifólio
+                            <A href='#about'>
+                                About me
                             </A>
                         </Li>
                         <Li>
-                            <A href='#contato'>
-                                Contato
+                            <A href='#projects'>
+                                Projects
+                            </A>
+                        </Li>
+                        <Li>
+                            <A href='#contact'>
+                                Contact
                             </A>
                         </Li>
                     </Ul>

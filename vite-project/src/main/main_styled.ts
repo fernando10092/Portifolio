@@ -76,7 +76,7 @@ color: white;
 border-radius: 10px;
 border: none;
 &:hover{
-background-color: #DC143C;
+background-color: #FFA500;
 color: rgb(1,1,1,0.7);
 transition: 0.5s;
 font-size: 20px;

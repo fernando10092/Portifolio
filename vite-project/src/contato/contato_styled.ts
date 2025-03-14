@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 //IMAGEM DE FUNDO
 export const Background_styled = styled.div`
-background-image: linear-gradient(	#4682B4, black);
+background-image: linear-gradient(	#FFA500, black);
 width: 100%;
 min-height: 100vh;
 margin: 0px;
@@ -69,7 +69,7 @@ margin-top: 10px;
 width: 200px;
 heigh: 30px;
 display: block;
-background-color: #7B68EE;
+background-image: linear-gradient( #1C1C1C,#FFA500);
 border: none;
 color: white;
 width: 250px;
@@ -77,7 +77,7 @@ height: 30px;
 cursor: pointer;
 
 &:hover{
-background-color: black;
+background-image: linear-gradient(#FFA500, #1C1C1C);
 }
 `
 

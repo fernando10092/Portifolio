@@ -61,9 +61,9 @@ export const Contato = () => {
                         <DivCard className="card">
                             <ImgCard src={logo} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Contato</h5>
-                                <p className="card-text">Nome: Fernando de Lima</p>
-                                <p className="card-text">Telefone: (11) 99537-0943</p>
+                                <h5 className="card-title">Contact</h5>
+                                <p className="card-text">Name: Fernando de Lima</p>
+                                <p className="card-text">Cellphone: +55 11 99537-0943</p>
                                 <p className="card-text">E-mail: fernando100@windowslive.com</p>
                             </div>
                         </DivCard>
@@ -72,18 +72,18 @@ export const Contato = () => {
                         <form onSubmit={Sender}>
                             {/* Formulário */}
                             <div className="mb-3">
-                                <label htmlFor="exampleFormControlInput1" className="form-label">Nome</label>
-                                <input onChange={(event) => setName(event.target.value)} value={name} name="nameInp" type="text" className="form-control" id="exampleFormControlInput1" placeholder="nome" />
+                                <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
+                                <input onChange={(event) => setName(event.target.value)} value={name} name="nameInp" type="text" className="form-control" id="exampleFormControlInput1" placeholder="name" />
                                 <label htmlFor="exampleFormControlInput1" className="form-label">E-mail</label>
-                                <input onChange={(event) => setEmail(event.target.value)} value={email} name="emailInp" type="email" className="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" />
+                                <input onChange={(event) => setEmail(event.target.value)} value={email} name="emailInp" type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                                 <label htmlFor="exampleFormControlInput1" className="form-label">Whatsapp</label>
                                 <input onChange={(event) => setTelefone(event.target.value)} value={telefone} name="telInp" type="text" className="form-control" id="exampleFormControlInput1" placeholder="(XX) XXXXX-XXXX" />
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="exampleFormControlTextarea1" className="form-label">Mensagem</label>
-                                <textarea placeholder="Digite sua mensagem..." onChange={(event) => setMsg(event.target.value)} value={msg} name="msgInp" className="form-control" id="exampleFormControlTextarea1"></textarea>
+                                <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
+                                <textarea placeholder="Type your message..." onChange={(event) => setMsg(event.target.value)} value={msg} name="msgInp" className="form-control" id="exampleFormControlTextarea1"></textarea>
                             </div>
-                            <Botao type="submit">ENVIAR</Botao>
+                            <Botao type="submit">SEND</Botao>
                         </form>
                     </Coluna2>
                 </BackgroundColuns>

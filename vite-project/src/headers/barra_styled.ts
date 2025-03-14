@@ -2,10 +2,11 @@ import styled from 'styled-components';
 
 //CONTAINER HOME
 export const Container = styled.div`
-background-color: rgb(1,1,1,0.8);
+background-image: linear-gradient(rgb(1,1,1,0.9), rgb(1,1,1,0.0));
 position: absolute;
 z-index: 10;
 width: 100%;
+position: fixed;
 
 `
 
@@ -43,7 +44,7 @@ height: 25px;
 font-family: "Sour Gummy", sans-serif;
 
     &:hover{
-    background-color: #DC143C;
+    background-color: #FFA500;
     border-radius: 10px;
     transition: 0.7s;
     }

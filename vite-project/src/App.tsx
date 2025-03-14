@@ -4,6 +4,7 @@ import { Portifolio } from './portifolio/portifolio'
 import { Contato } from './contato/contato'
 import Transicao from './transicao/transi_components'
 import Transicao2 from './transicao/transi2_components'
+import Projetos from './portifolio/linguagens'
 
 function App() {
 
@@ -11,12 +12,15 @@ function App() {
     <>
       <Home />
       <Transicao />
-      <section id="portifolio">
+      <section id="about">
         <Portifolio />
         {/* Conteúdo da seção */}
       </section>
       <Transicao2 />
-      <section id="contato">
+      <section id="projects">
+        <Projetos />
+        </section>
+      <section id="contact">
         <Contato />
         {/* Conteúdo da seção */}
       </section>
