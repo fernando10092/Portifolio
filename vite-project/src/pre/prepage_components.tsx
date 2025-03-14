@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 const PrePage = () => {
   const [texto, setTexto] = useState<string>("");
-
   useEffect(() => {
     setTimeout(() => {
       setTexto("");//Deixei em branco
